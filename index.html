@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <title>jQuery Mobile</title>
+</head>
+<body>
+  <!-- Home Page -->
+  <div data-role="page" data-add-back-btn="true" data-back-btn-text="Back">
+    <div data-role="header" data-theme="b">
+      <h1>
+        PES Modern College Of Engineering<br />
+        Shivaji Nagar, Pune
+      </h1>
+      <h4>NAAC 'A+' Grade</h4>
+    </div>
+
+    <!-- Navbar (persistent across all pages) -->
+    <div data-role="navbar" data-position="fixed" data-grid="c">
+      <ul>
+        <li style="background-color: rgb(40, 43, 43); color: white">
+          <a href="index.html" class="ui-btn ui-btn-inline ui-btn-active">Home</a>
+        </li>
+        <li><a href="loginregister.html" data-transition="slidefade" class="ui-btn ui-btn-inline">Login & Register</a></li>
+        <li><a href="deaprtment.html" data-transition="slidefade" class="ui-btn ui-btn-inline">Department</a></li>
+        <li><a href="#contact" class="ui-btn ui-btn-inline">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Home Page content -->
+    <div data-role="content">
+      <center><h3>Welcome to PES Modern College of Engineering</h3></center>
+      <p style="text-align: justify">
+        Pes Modern College of Engineering, situated in Pune, is a beacon of
+        educational excellence in the field of engineering. Established with a
+        commitment to nurturing innovative thinkers and skilled professionals,
+        the college boasts state-of-the-art infrastructure and a dynamic
+        learning environment. With a rich history spanning decades, it has
+        consistently upheld its reputation for academic rigor and industry
+        relevance. The college offers a wide array of undergraduate and
+        postgraduate programs across various disciplines of engineering,
+        catering to the diverse aspirations of its students. Emphasizing
+        holistic development, it fosters a culture of research,
+        entrepreneurship, and community engagement. Led by a dedicated faculty
+        comprising seasoned academicians and industry experts, Pes Modern
+        College of Engineering is a hub of intellectual growth and
+        technological advancement, empowering its students to thrive in the
+        ever-evolving landscape of engineering and beyond.
+      </p>
+    </div>
+
+    <div data-role="content">
+      <center><img src="https://moderncoe.edu.in/images/Infrastructure%20&%20Facilities/Main%20Building/building_1.jpg" alt="" width="60%" height="10%"></center>
+    </div>
+    <hr>
+    <!-- Vision content -->
+    <div data-role="content">
+      <center><h3>Vision</h3></center>
+      <p>
+        "To create a collaborative academic environment to foster professional
+        excellence and ethical values"
+      </p>
+    </div>
+<hr>
+    <!-- Mission content -->
+    <div data-role="content">
+      <center><h3>Mission</h3></center>
+      <div style="display: flex; flex-direction: column;">
+        <div style="display: flex; align-items: center;">
+          <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-check ui-btn-icon-notext ui-btn-b ui-btn-inline"></a>
+          <p style="margin-left: 10px;">To develop outstanding professionals with high ethical standards capable of creating and managing global enterprises</p>
+        </div>
+        <div style="display: flex; align-items: center;">
+          <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-check ui-btn-icon-notext ui-btn-b ui-btn-inline"></a>
+          <p style="margin-left: 10px;">To foster innovation and research by providing a stimulating learning environment</p>
+        </div>
+        <div style="display: flex; align-items: center;">
+          <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-check ui-btn-icon-notext ui-btn-b ui-btn-inline"></a>
+          <p style="margin-left: 10px;">To foster and maintain mutually beneficial partnerships with alumni and industry</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div data-role="footer" data-theme="b">
+      <h3>Quick Access</h3>
+      <center>
+        <a href="index.html" data-transition="slidefade">Home</a>
+        <br><br>
+        <a href="#about">About</a>
+        <br><br>
+        <a href="deaprtment.html" data-transition="slidefade">Department</a>
+        <br><br>
+        <a href="#contact">Contact</a>
+      </center>
+    </div>
+  </div>
+
+  </div>
+</body>
+</html>
+
+
+<!-- https://demos.jquerymobile.com/1.4.5/grids/ -->
